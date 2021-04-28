@@ -1,0 +1,124 @@
+.wrapper1 {
+  /* height: 100vh;
+  width: 100%; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #512da8, #711e72);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.form-wrapper1 {
+  /* width: 850px;
+  height: 600px; */
+  width: 65.43494996150885vw;
+  /* height: 89.68609865470852vh; */
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.client__name,
+.client__email,
+.client__phone,
+.client__comp {
+  width: 100%;
+}
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 0.8em;
+  font-weight: lighter;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.client__button {
+  margin-top: 160px;
+
+  margin-left: 350px;
+}
+.btn {
+  padding: 10px 22px;
+  transition: all 0.5s;
+  box-shadow: none !important;
+  background-color: #fb3e3e;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+}
+
+.btn-rounded {
+  border-radius: 30px;
+}
+
+.btn-custom {
+  border: 1px solid;
+  color: #fff;
+  transition: all 0.3s;
+  font-size: 14px;
+}
+
+.btn-custom,
+.play-btn {
+  border-color: #fb3e3e !important;
+}
+
+/* Step2 Styles */
+
+.step2__button {
+  position: relative;
+  margin-left: 590px;
+  margin-right: 100px;
+
+  margin-top: -40px;
+}
+
+.step2__button2 {
+  margin-left: 693px;
+  margin-top: -67px;
+}
+
+.step3__button {
+  margin-left: 590px;
+  margin-right: 100px;
+
+  margin-top: 30px;
+}
+
+.step3__button2 {
+  margin-left: 693px;
+  margin-top: -67px;
+}
