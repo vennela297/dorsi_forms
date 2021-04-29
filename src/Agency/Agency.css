@@ -125,9 +125,44 @@ input.error {
 .btn-custom,
 .play-btn {
   border-color: #fb3e3e !important;
+  
 }
 
 .submit {
   margin-left: 310px;
   margin-top: -50px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .wrapper{
+    margin: auto;
+    width:100%;
+    display: block;
+
+  }
+
+  .form-wrapper{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+  }
+  .firstName,
+.lastName,
+.email,
+.password {
+  width: 100%;
+  margin: auto;
+  
+}
+
+
+.submit{
+  margin: auto;
+}
+h3{
+  font-size: 1.5rem;
+}
+
+  
 }
